@@ -1,0 +1,102 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+/***************navbar starts***************/
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+.options {
+  color: aliceblue;
+  text-decoration: none;
+  margin: 20px;
+}
+.options:hover {
+  color: grey;
+  text-decoration: none;
+}
+/***************navbar ends***************/
+
+/************container-1 starts*************/
+.conatiner-1 {
+  height: 100vh;
+  background-image: url("studio.jpg");
+  background-size: cover;
+  text-align: center;
+  color: aliceblue;
+  padding-top: 45vh;
+  line-height: 2;
+}
+.heading h2 {
+  font-size: 50px;
+}
+p1 {
+  font-size: 20px;
+}
+
+/************container-1 ends*************/
+
+/************container-2 starts*************/
+.conatiner-2 {
+  height: 150vh;
+  background-color: grey;
+  text-align: center;
+}
+.sub-conatiner-a {
+  padding-top: 8%;
+}
+h1 {
+  font-weight: bold;
+  color: black;
+  font-size: 60px;
+}
+.millions {
+  font-size: 30px;
+  font-weight: bold;
+}
+.lorem-15 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.sub-conatiner-b {
+  padding-top: 11%;
+  /* padding-bottom: 3%; */
+}
+button {
+  background-color: black;
+  color: aliceblue;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+button:hover {
+  opacity: 0.7;
+  transition: 1s;
+}
+
+/************container-2 ends*************/
+
+/******footer********/
+.footer {
+  text-align: center;
+  font-size: 30px;
+  background-color: black;
+  color: aliceblue;
+}
+.facebook {
+  color: blue;
+}
+.twitter {
+  color: skyblue;
+}
+.instagram {
+  color: rgba(189, 52, 47, 0.801);
+}
+.google-plus {
+  color: red;
+}
+img {
+  border-radius: 20px;
+}
+/******footer*********/
